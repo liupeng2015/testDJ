@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Future future time time{% endblock %}
+
+{% block content %}
+<p>This is  the  booklist .</p>
+
+{{author.first_name}}
+{{author.last_name}}
+{{author.email}}
+
+
+{{authorlist}}
+
+
+{% for i in authorlist %}
+{{i.firstname}}
+<br>
+{% endfor %}
+
+
+{% endblock %}
+
+
+
+  {% block footer %}
+<p> new foot for the  hour </p>
+{% endblock %}

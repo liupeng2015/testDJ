@@ -1,0 +1,24 @@
+{% extends "base2.html" %}
+
+{% block title %}The current time{% endblock %}
+<table>
+  <tr>
+    <th>{% block content %}
+<p>It is now {{ current_date }}.</p>
+      {% endblock %}</th>
+    <th>{% block footer %}
+    <hr>
+    <p>footer</p>
+{% endblock %}</th>
+  </tr>
+  
+</table>
+
+
+
+
+
+
+
+
+
